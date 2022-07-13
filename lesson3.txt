@@ -1,0 +1,22 @@
+# Lesson 3 - Deconstructing the lesson2.java file
+
+# Words to define:
+Class
+	- "Container for  java code"
+Scope
+	- "A section of code, written with an identifier. Scopes are written into and on top of a GLOBAL scope. In java, this GLOBAL scope is the class scope"
+Method
+	- "Code that is run by your program when it is called"
+Method call
+	- "Direct instruction telling a program to run code inside of a specific method"
+Main method
+	- "Method that is run first when the program is executed, also called an 'entry point'"
+
+
+# Working plan
+1) Download lesson3.java and open it in notepad
+- Bonus credit if opened in the terminal
+2) Explain scope
+- Scope could be demonstrated by screensharing, then highlighting class scope, followed by method scope
+3) 
+# Check for understanding

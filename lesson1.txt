@@ -1,0 +1,59 @@
+# Lesson 1 - Setting up a working environment
+
+# Words to define:
+- Working environment
+	- "A combination of the project structure in use and the tools used to work inside said structure"
+- Code
+	- "Instructions for a computer to run"
+- Programming & coding
+	- "The act of writing, editing, running, and debugging code"
+- Project structure
+	- "The files and folders used to contain a project"
+	- A common example is "lib, src, bin"
+- Source file/Source code
+	- "A text file containing written code"
+- Source folder
+	- "A folder containing source files"
+- Runnable/executable/binary
+	- "The output of compiling a project, which can be executed on the system"
+- Human readable
+	- "Can be understood by a human. Source files are almost always human-readable, while executables are typically not"
+
+
+# Working plan
+
+1) Download and install the latest JDK
+2) Create a new folder called "javalessons"
+[
+	Structure is:
+
+	javalessons
+]
+3) Inside javalessons, create a folder named "lesson 1"
+[
+	Structure is:
+
+	javalessons
+	|__________> lesson 1	
+]
+4) Inside javalessons, create the following folders: "bin", "lib", "src"
+[
+	Structure is:
+
+	javalessons
+	|_________> lesson 1
+	|__________________> bin
+	|__________________> lib
+	|__________________> src
+]
+5) Explain the usage of bin and src
+- src, shorthand for "source" is used to contain code for a project. All code is written in "source folders", inside "source files".
+- bin, shorthand for "binary" is used to contain compiled code for a project, in the form of runnables/executables.
+- lib, shorthand for "library", set up to discuss later.
+
+6) Check for understanding
+- Do you understand how a project is laid out?
+	- Names, layout, how to use the file explorer? What folder to keep things in?
+	- If I asked you to create a new project folder for a project called "lesson a", could you do it?
+
+7) Final assertion - Delete the entire javalessons folder. Create the project layout from scratch, without directions.

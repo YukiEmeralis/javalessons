@@ -1,0 +1,51 @@
+# Lesson 2 - Running our first Java program
+
+# Words to define:
+- Text editor
+	- "A tool that can be used to write and edit text"
+- Project root/root folder
+	- "The base folder of a given project, containing libraries, binaries, and source code"
+- Java
+	- "High level, object-oriented, strongly and statically typed programming language, used to write general purpose applications and games"
+- Javac
+	- "Java's utility to compile .java files into binary executable .class files"
+- Console/command prompt/command line/terminal
+	- "Utility to run text-only or 'console' applications"
+- Working directory
+	- "The folder currently targetted inside of a terminal"
+- Command
+	- "Programs run through the terminal"
+
+
+# Working plan
+1) Create a new project "lesson 2"
+- Should be contained in its own folder, with bin, src, and lib
+2) Download the .java file associated with this lesson. Move into src folder
+- Explain how .java files are human-readable written Java code, which are compiled into .class files, which can be run by the computer
+3) Open the command prompt via cmd (win+r or search)
+- Demonstrate how directory commands work
+	- Note how the prompt displays the current directory
+	- dir: print the current directory
+	- cd <dir>: move into a folder
+		- Demonstrate ./ and ../
+4) Navigate to the project folder
+- Using only the command line, navigate to bin, and print out its contents. The folder should be empty
+- cd out using ../ to get back to the project root
+5) Execute "javac src/Lesson2.java -d bin/"
+6) Execute "cd bin"
+- Using dir, demonstrate how the folder now contains the compiled .class file
+7) Execute "java Lesson2", observe the output
+8) cd out using ../ to get back to the project root, and cd into src
+9) Execute "javac Lesson2.java"
+- Using dir, demonstrate how, without specifying the output directory with -d, javac will compile and output in the working directory
+
+
+# Check for understanding
+- Do you understand how to open a terminal and, using cd and dir, navigate and print directories?
+	- If I asked you to start at C:\, could you navigate up to the project root?
+		- Y: Lets see if you can.
+		- N: Lets try anyways, and do the best you can.
+- Do you understand what javac is, and what the -d flag does?
+- Y: Move on
+- N: Javac is the command-line tool to turn written .java source code files into compiled and runnable .class files
+- Do you understand how running a .class file using the java command runs the compiled program?
